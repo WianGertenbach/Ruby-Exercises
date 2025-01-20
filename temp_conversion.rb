@@ -4,7 +4,7 @@ def to_celcius(temp_fahr)
 end
 
 def to_fahrenheit(temp_cel)
-  temp_fahr = ((temp_cel*9.to_f/5)+32).round(2)
+  ((temp_cel*9.to_f/5)+32).round(2)
 end
 
 p to_celcius(40)
